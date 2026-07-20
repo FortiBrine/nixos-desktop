@@ -1,4 +1,4 @@
-{ config, pkgs, ... }: {
+{ config, ... }: {
   boot.extraModulePackages = with config.boot.kernelPackages; [
     rtl8821ce
   ];

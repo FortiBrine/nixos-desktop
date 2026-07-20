@@ -6,7 +6,7 @@
     gimp
     prismlauncher
     jetbrains.idea
-    jetbrains.pycharm
+    jetbrains.goland
     jetbrains.webstorm
     kdePackages.kdenlive
     telegram-desktop
@@ -36,4 +36,6 @@
   programs.firefox.enable = true;
   programs.zsh.enable = true;
   nixpkgs.config.allowUnfree = true;
+  services.flameshot.enable = true;
+
 }

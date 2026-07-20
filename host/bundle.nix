@@ -7,5 +7,6 @@
     ./packages.nix
     ./audio.nix
     ./nvidia.nix
+    ./zsh.nix
   ];
 }

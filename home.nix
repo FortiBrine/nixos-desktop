@@ -3,7 +3,9 @@
   home.homeDirectory = "/home/fortibrine";
   home.stateVersion = "26.05";
 
-  home.packages = [ pkgs.flameshot ];
+  home.packages = with pkgs; [
+    flameshot
+  ];
 
   services.flameshot.enable = true;
 
@@ -38,20 +40,6 @@
       "services/org.flameshot.Flameshot.desktop" = {
         "_launch" = "Print";
       };
-    };
-  };
-
-  programs.zsh = {
-    enable = true;
-    autosuggestion.enable = true;
-    syntaxHighlighting.enable = true;
-    oh-my-zsh = {
-      enable = true;
-      plugins = [
-        "git"
-        "sudo"
-      ];
-      theme = "agnoster";
     };
   };
 }
