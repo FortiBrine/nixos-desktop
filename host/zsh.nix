@@ -1,9 +1,9 @@
 {
   programs.zsh = {
     enable = true;
-    autosuggestion.enable = true;
+    autosuggestions.enable = true;
     syntaxHighlighting.enable = true;
-    oh-my-zsh = {
+    ohMyZsh = {
       enable = true;
       plugins = [
         "git"

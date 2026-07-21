@@ -8,5 +8,6 @@
     ./audio.nix
     ./nvidia.nix
     ./zsh.nix
+    ./tpm2.nix
   ];
 }
