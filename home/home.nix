@@ -1,4 +1,8 @@
 { config, pkgs, ... }: {
+  imports = [
+    ./ssh.nix
+  ];
+
   home.username = "fortibrine";
   home.homeDirectory = "/home/fortibrine";
   home.stateVersion = "26.05";

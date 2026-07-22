@@ -25,7 +25,9 @@
         {
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
-          home-manager.users.fortibrine = import ./home.nix;
+          home-manager.extraSpecialArgs = { inherit inputs; };
+
+          home-manager.users.fortibrine = ./home/home.nix;
 
           home-manager.sharedModules = [ plasma-manager.homeModules.plasma-manager ];
         }
