@@ -15,7 +15,7 @@ in
 {
   security.tpm2 = {
     enable = true;
-    tctiEnvironment.enable = true;\
+    tctiEnvironment.enable = true;
     abrmd.enable = true;
   };
 
