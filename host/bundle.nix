@@ -9,5 +9,6 @@
     ./nvidia.nix
     ./zsh.nix
     ./tpm2.nix
+    ./gc.nix
   ];
 }
